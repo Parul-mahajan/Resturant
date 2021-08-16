@@ -7,18 +7,14 @@
 .hero {
   height: 80vh;
   position: relative;
-  /* min-height: 100vh; */
+
   overflow: hidden;
-  /* background:ur:l(../images/avengers_3.jpg) ; */
 
   background-image: url(back.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  /* background: url(back.jpg); */
-  /* background-repeat: no-repeat;
-  width: 40%; */
   display: flex;
   align-items: center;
   justify-content: center;
