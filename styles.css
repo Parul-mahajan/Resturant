@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  height: 80vh;
+  position: relative;
+  /* min-height: 100vh; */
+  overflow: hidden;
+  /* background:ur:l(../images/avengers_3.jpg) ; */
+
+  background-image: url(back.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  /* background: url(back.jpg); */
+  /* background-repeat: no-repeat;
+  width: 40%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  font-size: 6rem;
+  font-family: "Palette Mosaic", cursive;
+  color: brown;
+  text-align: center;
+}
+
+.navbar {
+  text-align: right;
+  display: flex;
+  justify-content: space-around;
+}
+nav {
+  margin: auto;
+  padding-left: 8%;
+  background-color: black;
+  font-size: 1rem;
+}
+.navbar-brand {
+  font-family: "Palette Mosaic", cursive;
+  color: brown;
+}
+/* i {
+  color: brown;
+} */
+
+.covered {
+  padding: 3%;
+  display: flex;
+  flex-direction: column-reverse;
+  /* background-color: #fdd2bf; */
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+}
+
+.ehat {
+  padding-top: 6%;
+  text-align: center;
+  font-family: "Palette Mosaic", cursive;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  /* background-color: #fdd2bf; */
+  background-color: black;
+  color: white;
+}
+.menu {
+  padding: 3%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.new {
+  text-align: center;
+  font-family: "Palette Mosaic", cursive;
+  font-size: 3rem;
+}
+.ts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn {
+  margin-left: 10%;
+}
+
+footer {
+  text-align: center;
+  /* background-color: #fdd2bf; */
+  background-color: black;
+  padding: 2%;
+  color: white;
+}
+/* address {
+  margin-left: 3%;
+} */
+
+.nav-link {
+  color: white;
+}
+
+@media screen and (max-width: 480px) {
+  /* body {
+    background-color: lightgreen;
+  } */
+  .heading {
+    font-size: 4rem;
+  }
+}
